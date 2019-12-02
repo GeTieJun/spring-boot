@@ -14,7 +14,7 @@ public class ArticalPropertiesController {
 	private ArticalPropertiesServer articalPropertiesServer;
 	
 	@Value("${ArticalProperties.title}")
-	private String tital;
+	private String title;
 		
 	@Value("${ArticalProperties.description}")
 	private String description;
@@ -25,8 +25,8 @@ public class ArticalPropertiesController {
 		return articalProperties;
 	}
 	
-	@RequestMapping(value = "/defaultVlaue")
-	public String getArticalDefaultVlaue() {
-		return "title is: " + tital + " description is : " + description;
+	@RequestMapping(value = "/defaultValue")
+	public String getArticalDefaultValue() {
+		return "title is: " + title + " description is : " + description;
 	}
 }

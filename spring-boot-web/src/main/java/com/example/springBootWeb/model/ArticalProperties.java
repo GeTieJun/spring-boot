@@ -9,17 +9,17 @@ import org.springframework.stereotype.Component;
 public class ArticalProperties {
 	
 	//@Value("${ArticalProperties.title}")
-	private String tital;
+	private String title;
 	
 	//@Value("${ArticalProperties.description}")
 	private String description;
 	
-	public String getTital() {
-		return tital;
+	public String getTitle() {
+		return title;
 	}
 
-	public void setTital(String tital) {
-		this.tital = tital;
+	public void setTitle(String title) {
+		this.title = title;
 	}
 
 	public String getDescription() {

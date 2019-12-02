@@ -6,10 +6,12 @@ import org.springframework.stereotype.Service;
 import com.example.springBootWeb.dao.UserMapper;
 import com.example.springBootWeb.model.User;
 
+import javax.annotation.Resource;
+
 @Service
 public class UserServer {
 
-	@Autowired
+	@Resource
 	private UserMapper userMapper;
 	
 	public void insertDefaultUser() {
