@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>spring-boot-rebbitmq</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-rebbitmq</name>
+	<name>spring-boot-rabbitmq</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -26,12 +26,6 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-			<scope>runtime</scope>
-			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 			<exclusions>
@@ -44,6 +38,12 @@
 		<dependency>
 			<groupId>org.springframework.amqp</groupId>
 			<artifactId>spring-rabbit-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
