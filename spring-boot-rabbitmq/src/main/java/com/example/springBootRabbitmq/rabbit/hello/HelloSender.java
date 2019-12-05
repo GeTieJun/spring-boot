@@ -1,4 +1,4 @@
-package com.example.springBootRebbitmq.rabbit.hello;
+package com.example.springBootRabbitmq.rabbit.hello;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,7 +18,7 @@ public class HelloSender {
 
     public void send(){
         String context = "hello" + new Date();
-        logger.info("Sender: " + context);
-        rabbitTemplate.convertAndSend(context);
+        logger.info(">>>Sender: " + context);
+        rabbitTemplate.convertAndSend("hello", context);
     }
 }

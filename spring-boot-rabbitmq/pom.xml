@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>spring-boot-rebbitmq</artifactId>
+	<artifactId>spring-boot-rabbitmq</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-rabbitmq</name>
 	<description>Demo project for Spring Boot</description>

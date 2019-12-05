@@ -1,4 +1,4 @@
-package com.example.springBootRebbitmq.rabbit.hello;
+package com.example.springBootRabbitmq.rabbit.hello;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,12 +13,9 @@ import org.springframework.stereotype.Component;
 public class HelloReceiver {
     private static final Logger logger = LoggerFactory.getLogger(HelloReceiver.class);
 
-    @Autowired
-    private AmqpTemplate rabbitTemplate;
-
     @RabbitHandler
     public void process(String hello){
-        logger.info("Receiver: " + hello);
+        logger.info(">>>Receiver: " + hello);
     }
 
 }
