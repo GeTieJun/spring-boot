@@ -35,7 +35,6 @@ public class TopicRabbitConfig {
 
     @Bean
     Binding bindingExchangeMessage(Queue queueMessage, TopicExchange topicExchange) {
-        logger.info(">>>queueMessage is: " + queueMessage);
         return BindingBuilder.bind(queueMessage).to(topicExchange).with("topic.#");
     }
 
