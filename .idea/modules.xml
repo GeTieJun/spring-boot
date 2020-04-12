@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/gitCode.iml" filepath="$PROJECT_DIR$/.idea/gitCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-web-rabbitmq/spring-boot-web-rabbitmq.iml" filepath="$PROJECT_DIR$/spring-boot-web-rabbitmq/spring-boot-web-rabbitmq.iml" />
+    </modules>
+  </component>
+</project>
